@@ -20,5 +20,5 @@ If (-not (Test-Path $nuget)) {
 	}
 }
 
-(Get-Content LPSoft.CSharp.Codestyles.template.props) -replace "#.#.#","$version" | Set-Content LPSoft.CSharp.Codestyles.props
-&$nuget pack LPSoft.CSharp.Codestyles.nuspec -Version $version -OutputDirectory dist
+(Get-Content ./LPSoft.CSharp.Codestyles.template.props) -replace "#.#.#","$version" | Set-Content ./LPSoft.CSharp.Codestyles.props
+&$nuget pack ./LPSoft.CSharp.Codestyles.nuspec -Version $version -OutputDirectory ./dist
