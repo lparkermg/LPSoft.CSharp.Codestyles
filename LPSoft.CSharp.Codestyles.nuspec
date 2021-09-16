@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>LPSoft.CSharp.Codestyles</id>
+    <version>0.0.0</version>
+    <authors>Luke Parker</authors>
+    <owners>Luke Parker</owners>
+    <licenseUrl>https://github.com/lparkermg/LPSoft.CSharp.Codestyles/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lparkermg/LPSoft.CSharp.Codestyles</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The custom ruleset file for Style Cop used by Luke Parker</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Luke Parker 2021</copyright>
+    <tags>LPSoft Luke Parker style cop stylecop code codestyle codestyles styles</tags>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="[1.2.0-beta.354]" />
+    </dependencies>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <files>
+    <file src="LPSoft.CSharp.Codestyles.ruleset" target="" />
+    <file src="stylecop.json" target="" />
+    <file src="LPSoft.CSharp.Codestyles.props" target="build" />
+  </files>
+</package>
